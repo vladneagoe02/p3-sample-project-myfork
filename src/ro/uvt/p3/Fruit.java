@@ -14,7 +14,7 @@ public abstract class Fruit {
     }
 
     public enum Color{
-        red, blue, yellow, purple
+        red, blue, yellow, green, purple
     }
 }
 
