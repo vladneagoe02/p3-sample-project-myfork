@@ -1,5 +1,8 @@
 package ro.uvt.p3;
 
 class Banana extends Fruit {
-    Color defaultColor = Color.yellow;
+
+    public Banana(float weight, int sugarContent, int waterContent) {
+        super(weight, sugarContent, waterContent, Color.yellow);
+    }
 }
