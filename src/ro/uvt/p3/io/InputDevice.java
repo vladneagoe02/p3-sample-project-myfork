@@ -4,9 +4,20 @@ import ro.uvt.p3.Apple;
 import ro.uvt.p3.Banana;
 import ro.uvt.p3.Fruit;
 
+import java.io.InputStream;
+import java.util.Scanner;
 
 
 public class InputDevice {
+    InputStream in;
+
+    public InputDevice() {
+        in = System.in;
+    }
+
+    public InputDevice(InputStream in) {
+        this.in = in;
+    }
 
     public String nextLine(){
         return "The quick brown fox jumps over the lazy dog.";
