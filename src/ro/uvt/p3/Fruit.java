@@ -1,8 +1,8 @@
 package ro.uvt.p3;
 
 public abstract class Fruit {
-    float weight;
-    int sugarContent;
+    public float weight;
+    public int sugarContent;
     int waterContent;
     Color color;
 

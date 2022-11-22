@@ -32,4 +32,17 @@ public class InputDevice {
         fruits[4] = new Apple(110, 15,65, Fruit.Color.green);
         return fruits;
     }
+    public int computeWeight(Fruit[] fruits) {
+        int s = 0;
+        for (int i = 0; i < fruits.length; i++)
+            s += fruits[i].weight;
+        return s;
+    }
+
+    public int computeSugarContent(Fruit[] fruits){
+        int sg = 0;
+        for(int i = 0; i < fruits.length; i++)
+            sg += fruits[i].sugarContent;
+        return sg;
+    }
 }
